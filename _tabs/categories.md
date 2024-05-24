@@ -2,4 +2,11 @@
 layout: categories
 icon: fas fa-stream
 order: 1
+categories:
+  - M365
+  - CTF
+  - About Me
+  - KQL
+  - Writeups
+  - Notes
 ---
