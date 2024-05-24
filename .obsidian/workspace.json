@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-25-introduction-to-this-blog.md",
+                "file": "_posts/2024-05-25-my-notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-25-introduction-to-this-blog.md",
+                "file": "_posts/2024-05-25-my-notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-25-introduction-to-this-blog.md",
+                "file": "_posts/2024-05-25-my-notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-25-introduction-to-this-blog.md"
+                "file": "_posts/2024-05-25-my-notes.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "79bb640b24d7e2d7",
   "lastOpenFiles": [
+    "_posts/2024-05-25-introduction-to-this-blog.md",
     "_data/authors.yaml",
     "assets/img/favicons/safari-pinned-tab.svg",
     "assets/img/favicons/mstile-150x150.png",
@@ -173,9 +174,7 @@
     "_data/_site",
     "_data/authors.yaml~",
     "_posts/2024-05-25-my-notes.md",
-    "_posts/2024-05-25-introduction-to-this-blog.md",
     "_site/Privacy/index.html",
-    "_site/Privacy",
     "_site/assets/img/favicons/android-chrome-512x512.png",
     "_site/assets/logo.png",
     "_posts/2024-05-04-Introduction.md",
