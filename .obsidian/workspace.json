@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,6 +147,7 @@
   },
   "active": "79bb640b24d7e2d7",
   "lastOpenFiles": [
+    "_config.yml~",
     "_tabs/categories.md",
     "_tabs/Impressum.md",
     "_tabs/Privacy.md",

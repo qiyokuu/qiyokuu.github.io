@@ -228,7 +228,7 @@ timezone: Europe/Berlin
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: qiyokuu # the main title
+title: 0xbirb # the main title
 
 tagline: A cybersecurity blog # it will display as the sub-title
 
@@ -240,7 +240,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://0xbirb.github.io"
 
 github:
-  username: qiyokuu # change to your github username
+  username: 0xbirb # change to your github username
 
 social:
   # Change to your full name.
