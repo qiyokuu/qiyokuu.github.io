@@ -148,6 +148,7 @@
   },
   "active": "79bb640b24d7e2d7",
   "lastOpenFiles": [
+    "_data/authors.yaml",
     "assets/img/favicons/safari-pinned-tab.svg",
     "assets/img/favicons/mstile-150x150.png",
     "assets/img/favicons/favicon.ico",
@@ -177,7 +178,6 @@
     "_site/Privacy",
     "_site/assets/img/favicons/android-chrome-512x512.png",
     "_site/assets/logo.png",
-    "_site/assets/img/favicons/safari-pinned-tab.svg",
     "_posts/2024-05-04-Introduction.md",
     "_posts/2024-05-04-README.md",
     "Untitled.md",
