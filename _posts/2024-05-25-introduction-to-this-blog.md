@@ -15,7 +15,7 @@ pin: true
 ## A few information about myself
 
 
-```powershell
+```css
 ┌──(bl4ckout㉿kali)-[~/0xbirb.github.io]
 └─$ whoami                                                                       
       0xbirb
