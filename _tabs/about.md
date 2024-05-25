@@ -14,3 +14,12 @@ This blog is dedicated to sharing insights on Capture The Flag (CTF) competition
 ## Whoami
 
 Hello! I'm Ludwig, a IT-Sec Nerd, writer, and creator of this site.
+
+
+### Links
+___
+
+- [GitHub](https://github.com/0xbirb)
+- [HackTheBox](https://app.hackthebox.com/profile/299686)
+  
+[![0xbirb](https://www.hackthebox.com/badge/image/299686)](https://app.hackthebox.com/profile/299686)
