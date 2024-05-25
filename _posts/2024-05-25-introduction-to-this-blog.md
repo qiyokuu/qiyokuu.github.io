@@ -25,10 +25,15 @@ pin: true
 	- purple teamer
 ```
 
-Links
+<br>
+
+### Links
 ___
 
- [HackTheBox](https://app.hackthebox.com/profile/299686)
- 
-[ ![0xbirb]](https://www.hackthebox.com/badge/image/299686)
+- [GitHub](https://github.com/0xbirb)
+- [HackTheBox](https://app.hackthebox.com/profile/299686)
+  
+[![0xbirb](https://www.hackthebox.com/badge/image/299686)](https://app.hackthebox.com/profile/299686)
+
+
 
