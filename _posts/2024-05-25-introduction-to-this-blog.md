@@ -15,13 +15,12 @@ pin: true
 ## A few information about myself
 
 
-```
+```powershell
 ┌──(bl4ckout㉿kali)-[~/0xbirb.github.io]
-└─$ whoami                                                                          
-    0xbirb
-
-
-- infoSec addict
-- passionate about security
-- purple teamer
+└─$ whoami                                                                       
+      0xbirb
+      
+	- infoSec addict
+	- passionate about security
+	- purple teamer
 ```
