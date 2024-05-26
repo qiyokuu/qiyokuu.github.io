@@ -15,13 +15,25 @@ pin: true
 ## A few information about myself
 
 
-```
+```bash
 ┌──(bl4ckout㉿kali)-[~/0xbirb.github.io]
-└─$ whoami                                                                          
-    0xbirb
-
-
-- infoSec addict
-- passionate about security
-- purple teamer
+└─$ whoami                                                                       
+      0xbirb
+      
+	- infoSec addict
+	- passionate about security
+	- purple teamer
 ```
+
+<br>
+
+### Links
+___
+
+- [GitHub](https://github.com/0xbirb)
+- [HackTheBox](https://app.hackthebox.com/profile/299686)
+  
+[![0xbirb](https://www.hackthebox.com/badge/image/299686)](https://app.hackthebox.com/profile/299686)
+
+
+
