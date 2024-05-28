@@ -10,4 +10,8 @@ categories:
   - Writeups
   - Notes
   - File Transfers
+  - Privilege Escalation
+  - Exploit
+  - Shells
+  - Backdoor
 ---
