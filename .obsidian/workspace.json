@@ -86,7 +86,7 @@
               "type": "backlink",
               "state": {
                 "file": "_posts/2024-05-25-my-notes.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -129,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,14 +148,14 @@
   },
   "active": "79bb640b24d7e2d7",
   "lastOpenFiles": [
+    "_posts/2024-05-25-my-notes.md",
+    "_posts/2024-05-25-introduction-to-this-blog.md",
     "_config.yml~",
     "_tabs/categories.md",
     "_tabs/Impressum.md",
     "_tabs/Privacy.md",
     "_tabs/tags.md",
-    "_posts/2024-05-25-my-notes.md",
     "_tabs/about.md",
-    "_posts/2024-05-25-introduction-to-this-blog.md",
     "_data/authors.yaml",
     "assets/img/favicons/safari-pinned-tab.svg",
     "assets/img/favicons/mstile-150x150.png",
@@ -174,7 +175,6 @@
     "_data/_site/authors.yaml",
     "_data/_site",
     "_data/authors.yaml~",
-    "_site/Privacy/index.html",
     "_site/assets/img/favicons/android-chrome-512x512.png",
     "_site/assets/logo.png",
     "_posts/2024-05-04-Introduction.md",
