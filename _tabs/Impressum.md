@@ -14,7 +14,6 @@ ___
 - Telefon: Auf Anfrage
 - E-Mail: schober.ludwig [at] proton [dot] com
 
-Quelle: https://www.e-recht24.de Haftungsausschluss (Disclaimer)
 
 Haftung für Inhalte
 

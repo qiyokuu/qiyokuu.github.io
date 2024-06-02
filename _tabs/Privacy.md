@@ -9,7 +9,7 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der V
 **Verantwortlicher Ludwig Schober**
 
 - E-Mailadresse: schober.ludwig [at] proton [dot] com
-- Link zum Impressum: 	https://0xbirb.github.io/blog/impressum/
+
 
 Arten der verarbeiteten Daten
     Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).
