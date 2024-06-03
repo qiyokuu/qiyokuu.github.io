@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "518314e0660a46c7",
+        "id": "4c723fbd14e31134",
         "type": "tabs",
         "children": [
           {
-            "id": "79bb640b24d7e2d7",
+            "id": "4011e5842f288bdb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-25-my-notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-25-my-notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-25-my-notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2024-05-25-my-notes.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -149,14 +141,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "79bb640b24d7e2d7",
+  "active": "4011e5842f288bdb",
   "lastOpenFiles": [
+    "_posts/2024-05-25-my-notes.md",
     "Pasted image 20240602145357.png",
     "Pasted image 20240602145339.png",
     "Pasted image 20240602145333.png",
     "_config.yml~",
     "_tabs/Privacy.md",
-    "_posts/2024-05-25-my-notes.md",
     "_tabs/about.md",
     "_tabs/archives.md",
     "_tabs/categories.md",
@@ -174,7 +166,6 @@
     "assets/img/favicons/android-chrome-192x192.png",
     "assets/img/favicons",
     "assets/img",
-    "assets/logo.png",
     "README.md",
     "_data/_site/share.yml",
     "_data/_site/contact.yml",
