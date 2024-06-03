@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4c723fbd14e31134",
+        "id": "a9b375b9e6460ae2",
         "type": "tabs",
         "children": [
           {
-            "id": "4011e5842f288bdb",
+            "id": "a72a0e344140a0ff",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -141,8 +141,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "4011e5842f288bdb",
+  "active": "a72a0e344140a0ff",
   "lastOpenFiles": [
+    "2024-06-03.md",
     "_posts/2024-05-25-my-notes.md",
     "Pasted image 20240602145357.png",
     "Pasted image 20240602145339.png",
