@@ -14,4 +14,9 @@ categories:
   - Exploit
   - Shells
   - Backdoor
+  - Honeypot
+  - Technical
+  - VPS
+  - Spiderfoot
+  - Defensive
 ---

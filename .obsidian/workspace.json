@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-25-introduction-to-this-blog.md",
+                "file": "_posts/2024-06-291-Creating my own HoneyPot with T-Pot.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#purple",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-25-introduction-to-this-blog.md",
+                "file": "_posts/2024-06-291-Creating my own HoneyPot with T-Pot.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-25-introduction-to-this-blog.md",
+                "file": "_posts/2024-06-291-Creating my own HoneyPot with T-Pot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-25-introduction-to-this-blog.md"
+                "file": "_posts/2024-06-291-Creating my own HoneyPot with T-Pot.md"
               }
             }
           }
@@ -150,29 +149,30 @@
   },
   "active": "a72a0e344140a0ff",
   "lastOpenFiles": [
+    "_posts/2024-05-25-introduction-to-this-blog.md",
+    "_posts/2024-05-25-my-notes.md",
+    "_tabs/categories.md",
+    "_posts/2024-06-291-Creating my own HoneyPot with T-Pot.md",
+    "_tabs/about.md",
+    "Pasted image 20240629160933.png",
+    "Pasted image 20240629160922.png",
+    "Pasted image 20240629160915.png",
+    "Pasted image 20240629160906.png",
+    "Pasted image 20240629160901.png",
+    "Pasted image 20240629160840.png",
+    "Pasted image 20240629160827.png",
+    "Pasted image 20240629160819.png",
+    "Pasted image 20240629160804.png",
+    "Pasted image 20240629160729.png",
     "Untitled.canvas",
     "2024-06-03.md",
-    "_posts/2024-05-25-my-notes.md",
-    "Pasted image 20240602145357.png",
-    "Pasted image 20240602145339.png",
-    "Pasted image 20240602145333.png",
     "_config.yml~",
     "_tabs/Privacy.md",
-    "_tabs/about.md",
     "_tabs/archives.md",
-    "_tabs/categories.md",
     "_tabs/Impressum.md",
     "_tabs/tags.md",
-    "_posts/2024-05-25-introduction-to-this-blog.md",
     "_data/authors.yaml",
-    "assets/img/favicons/safari-pinned-tab.svg",
-    "assets/img/favicons/mstile-150x150.png",
     "assets/img/favicons/favicon.ico",
-    "assets/img/favicons/favicon-32x32.png",
-    "assets/img/favicons/favicon-16x16.png",
-    "assets/img/favicons/apple-touch-icon.png",
-    "assets/img/favicons/android-chrome-256x256.png",
-    "assets/img/favicons/android-chrome-192x192.png",
     "assets/img/favicons",
     "assets/img",
     "README.md",
@@ -194,7 +194,6 @@
     "_posts/Enumeration/Linux.md",
     "_posts/Enumeration/Active-Directory.md",
     "_posts/OSCP-Notes/README.md",
-    "_posts/Shells/Windows.md",
-    "_posts/Shells/Web.md"
+    "_posts/Shells/Windows.md"
   ]
 }
