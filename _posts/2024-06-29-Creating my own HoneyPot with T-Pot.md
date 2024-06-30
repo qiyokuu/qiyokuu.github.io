@@ -14,7 +14,7 @@ pin: false
 ---
 
 
-For this project, i'll be using a Virtual Private Server offered by the German cloud provider NetCup. You will learn how to install [T-Pot](https://github.com/telekom-security/tpotce), the all in one HoneyPot.
+For this project, i'll be using a Virtual Private Server offered by the German cloud provider NetCup. You will learn how to install [T-Pot](https://github.com/telekom-security/tpotce), the all in one HoneyPot in this blog post. 
 
 My server has the following dimensions witch are more than enough to satisfy the [system requirments](https://github.com/telekom-security/tpotce/blob/master/README.md#system-requirements):
 
@@ -55,10 +55,12 @@ The command shows it executed properly, we should now be able to authenticate wi
 voilà! we get a shell and can now proceed with the installation of t-pot.
 
 
+<br>
+<br>
+
 ## Setting up T-Pot
 
-This is a fairly straight-forward process. We can generate our own ISO File using makeiso.sh
-script from T-Pot's GitHub.
+This is a fairly straight-forward process. We can clone the repository or create our own ISO File using makeiso.sh script from T-Pot's GitHub. I choose the simplest method and just went the default installation that sets up a docker instance for the honeypot.
 
 ```bash
 #install git if not already installed
@@ -84,13 +86,19 @@ The installation will do the following which we have to keep in mind:
 - Add the current user to the docker group
 - Add and enable `tpot.service` to `/etc/systemd/system` so T-Pot can automatically start and stop
 
+<br>
+
 ![Desktop View](/assets/img/tpot/installation.png)
 
 When prompted for the type, I went with the Full Hive (option h) - this will require the most resources but will include all features. 
 If you're unsure what to go for it might be sensible to check t-pot's [system requirments](https://github.com/telekom-security/tpotce#system-requirements) 
 
+<br>
+
 Once the installer is finished we need to reboot the machine and access it on port 64295 using ssh:
 ![Desktop View](/assets/img/tpot/installation-sshconnect.png)
+
+<br>
 
 **Optional:** Opt-Out from submitting data to Telekoms Sicherheitstacho
 
@@ -130,6 +138,9 @@ We are now greeted by t-Pots interface and can navigate to the Attack Map or the
 Great, we now completed the installation of t-pot. In the following sections, I will go into depth on what kind of honeypots are now set up and how to play around with the data.
 
 
+<br>
+<br>
+
 ## Overview of the Dashboards
 
 ### Kibana
@@ -138,21 +149,29 @@ On the landing page, we can choose the Kibana Dashboard witch is pretty cool, we
 
 ![Desktop View](/assets/img/tpot/kibana.png)
 
+<br>
 
 For example, we can look at the entirety of the T-Pot Honeypots which we deployed. After around two Days of running it, we have a total of 66,234 attacks. For this reason, I also suggest lowering the amount of logs that we store to a period of 7 Days instead of 30 Days.
 
 ![Desktop View](/assets/img/tpot/kibana2.png)
+
+<br>
 
 ### Attack Map
 
 The Attack Map is a live Dashboard of our HoneyPot and how it's being attacked from the globe. The marked Dots indicate known malicious adversaries that automatically try to compromise systems in the wild, you can gain a little intel by hovering over them.
 
 ![Desktop View](/assets/img/tpot/attackmap.png)
+
+<br>
+
 ### CyberChef
 
 Cyberchef is a simple, intuitive web app for analyzing and decoding data without having to deal with complex tools or programming languages. You can "BAKE" recipes and reuse them
 
 ![Desktop View](/assets/img/tpot/cyberchef.png)
+
+<br>
 
 ### SpiderFoot
 
