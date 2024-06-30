@@ -26,11 +26,11 @@ My server has the following dimensions witch are more than enough to satisfy the
 
 ## Setting up our server
 
-For the OS I choose Debian 12 with code name "Bookworm". If you're also using a VPS, I recommend choosing a SSH-Key instead of a username and password.
+For the OS I choose Debian 12 with code name "Bookworm". If you're also using a VPS, I recommend choosing a SSH-Key instead of a username and password for authentication. Since the automatic SSH Deployment did not work, I first created a user which we will be using to copy our ssh key to server with.
 
 ![Desktop View](/assets/img/tpot/specs.png)
 
-After waiting a few minutes, the image is successfully deployed and we can try connecting via SSH using the initial user we created
+After waiting a few minutes, the image is successfully deployed, and we can try connecting.
 
 ![Desktop View](/assets/img/tpot/specs2.png)
 
@@ -127,7 +127,7 @@ Now that we verified ssh login works, we can check out  our main form of adminis
 https://vps_public_ip>:64297
 ```
 
-Since we do not have a officially signed certificate, we will have to click through the warning of our web browser and proceed to log in using the defined user during the installation of t-pot
+Since we do not have a officially signed certificate, we will have to click through the warning that the webserver is not secure and proceed to log in using the defined user during the installation of t-pot
 
 ![Desktop View](/assets/img/tpot/web1.png)
 
