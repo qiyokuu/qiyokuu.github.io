@@ -28,11 +28,12 @@ My server has the following dimensions witch are more than enough to satisfy the
 
 For the OS I choose Debian 12 with code name "Bookworm". If you're also using a VPS, I recommend choosing a SSH-Key instead of a username and password.
 
-![[Pasted image 20240629160532.png]]
+![Desktop View](/assets/img/tpot/specs.png)
 
 After waiting a few minutes, the image is successfully deployed and we can try connecting via SSH using the initial user we created
 
-![[Pasted image 20240629160553.png]]
+![Desktop View](/assets/img/tpot/specs2.png)
+
 In order to access the system easily from my workstation, I've generated a fresh SSH Key to authenticate against the server and added it to the server using ssh-copy-id:
 
 ```bash
@@ -46,10 +47,11 @@ ssh-copy-id user@vps_public_ip
 ssh -i "YourSSH-KeyLabel.pub" user@vps_public_ip
 ```
 
-![[Pasted image 20240629160615.png]]
+![Desktop View](/assets/img/tpot/ssh-setup1.png)
+
 The command shows it executed properly, we should now be able to authenticate with our newly generated ssh-key.
 
-![[Pasted image 20240629160643.png]]
+![Desktop View](/assets/img/tpot/ssh-setup2.png)
 voilà! we get a shell and can now proceed with the installation of t-pot.
 
 
@@ -82,13 +84,13 @@ The installation will do the following which we have to keep in mind:
 - Add the current user to the docker group
 - Add and enable `tpot.service` to `/etc/systemd/system` so T-Pot can automatically start and stop
 
-![[Pasted image 20240629160708.png]]
+![Desktop View](/assets/img/tpot/installation.png)
 
 When prompted for the type, I went with the Full Hive (option h) - this will require the most resources but will include all features. 
 If you're unsure what to go for it might be sensible to check t-pot's [system requirments](https://github.com/telekom-security/tpotce#system-requirements) 
 
 Once the installer is finished we need to reboot the machine and access it on port 64295 using ssh:
-![[Pasted image 20240629160729.png]]
+![Desktop View](/assets/img/tpot/installation-sshconnect.png)
 
 **Optional:** Opt-Out from submitting data to Telekoms Sicherheitstacho
 
@@ -105,7 +107,7 @@ vim docker-compose.yml
 systemctl start tpot
 ```
 
-![[Pasted image 20240629160804.png]]
+![Desktop View](/assets/img/tpot/telemtry.png)
 Remove the Ewsposter section to remove Telemetry
 
 
@@ -119,11 +121,11 @@ https://vps_public_ip>:64297
 
 Since we do not have a officially signed certificate, we will have to click through the warning of our web browser and proceed to log in using the defined user during the installation of t-pot
 
-![[Pasted image 20240629160827.png]]
+![Desktop View](/assets/img/tpot/web1.png)
 
 We are now greeted by t-Pots interface and can navigate to the Attack Map or the Kibana Dashboard where we are able to view the specific attacks that are happening on our honeypots
 
-![[Pasted image 20240629160840.png]]
+![Desktop View](/assets/img/tpot/web2.png)
 
 Great, we now completed the installation of t-pot. In the following sections, I will go into depth on what kind of honeypots are now set up and how to play around with the data.
 
@@ -134,23 +136,23 @@ Great, we now completed the installation of t-pot. In the following sections, I 
 
 On the landing page, we can choose the Kibana Dashboard witch is pretty cool, we can review each HoneyPot in detail and how exactly its being attacked.
 
-![[Pasted image 20240629160901.png]]
+![Desktop View](/assets/img/tpot/kibana.png)
 
 
 For example, we can look at the entirety of the T-Pot Honeypots which we deployed. After around two Days of running it, we have a total of 66,234 attacks. For this reason, I also suggest lowering the amount of logs that we store to a period of 7 Days instead of 30 Days.
 
-![[Pasted image 20240629160906.png]]
+![Desktop View](/assets/img/tpot/kibana2.png)
 
 ### Attack Map
 
 The Attack Map is a live Dashboard of our HoneyPot and how it's being attacked from the globe. The marked Dots indicate known malicious adversaries that automatically try to compromise systems in the wild, you can gain a little intel by hovering over them.
 
-![[Pasted image 20240629160915.png]]
+![Desktop View](/assets/img/tpot/attackmap.png)
 ### CyberChef
 
 Cyberchef is a simple, intuitive web app for analyzing and decoding data without having to deal with complex tools or programming languages. You can "BAKE" recipes and reuse them
 
-![[Pasted image 20240629160922.png]]
+![Desktop View](/assets/img/tpot/cyberchef.png)
 
 ### SpiderFoot
 
@@ -170,7 +172,7 @@ Depending on the target, SpiderFoot can scrape lot's of data and provide you wit
 
 Keep in mind that scanning a target only should be done in a ethical manner and not without permission, since public scanning is forbidden in certain countries.
 
-![[Pasted image 20240629160933.png]]
+![Desktop View](/assets/img/tpot/spider.png)
 
 ## Using T-pot to analyze attacks
 
